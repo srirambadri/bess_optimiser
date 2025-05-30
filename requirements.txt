@@ -1,8 +1,8 @@
 pandas==2.2.2
 numpy==2.2.6
-openpyxl==3.1.2 # Required for reading .xlsx files
+openpyxl==3.1.2 
 ortools==9.12.4544
-requests==2.31.0 # For SMARD API calls
+requests==2.31.0 
 pytest==8.2.0
-xlsxwriter==3.2.0 # For writing Excel files
+xlsxwriter==3.2.0 
 matplotlib==3.8.4
