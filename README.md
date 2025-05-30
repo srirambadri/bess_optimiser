@@ -6,7 +6,7 @@ This project provides a dockerised Python application for optimising Battery Ene
 
 * **SMARD Data Fetching:** Automatically retrieves market prices, load, wind, and solar generation data from the SMARD API for a specified day.
 * **BESS Optimization:** Implements a Mixed-Integer Programming (MIP) model using Google OR-Tools to optimize battery operations (charging, discharging, state-of-charge) based on market conditions and battery/grid constraints.
-* **Excel Output:** Saves detailed optimization results (grid power flow, battery power, SOC, etc.) to an Excel file.
+* **Excel Output:** Saves detailed optimisation results (grid power flow, battery power, SOC, etc.) to an Excel file.
 * **Plotting:** Generates a plot showing the State-of-Charge (SoC) and market price over time, saved as a PNG image.
 * **Dockerised:** Encapsulates the entire application in a Docker container for easy setup, consistent execution, and portability across different environments.
 
@@ -17,7 +17,7 @@ bess_optimizer_pipeline/
 │   ├── __init__.py         
 │   ├── config.py           # Configuration settings (paths, API details, dates)
 │   ├── smard_client.py     # Handles SMARD API data fetching and preprocessing
-│   ├── bess_optimizer.py   # Contains the OR-Tools optimization model
+│   ├── bess_optimizer.py   # Contains the OR-Tools optimisation model
 │   └── main.py             # Main entry point to run the pipeline
 ├── data/
 │   └── BESS_Data.xlsx      # BESS and Grid parameters (REQUIRED)
