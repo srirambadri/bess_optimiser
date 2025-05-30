@@ -8,7 +8,7 @@ This project provides a Dockerized Python application for optimising Battery Ene
 * **BESS Optimization:** Implements a Mixed-Integer Programming (MIP) model using Google OR-Tools to optimize battery operations (charging, discharging, state-of-charge) based on market conditions and battery/grid constraints.
 * **Excel Output:** Saves detailed optimization results (grid power flow, battery power, SOC, etc.) to an Excel file.
 * **Plotting:** Generates a plot showing the State-of-Charge (SoC) and market price over time, saved as a PNG image.
-* **Dockerized:** Encapsulates the entire application in a Docker container for easy setup, consistent execution, and portability across different environments.
+* **Dockerised:** Encapsulates the entire application in a Docker container for easy setup, consistent execution, and portability across different environments.
 
 ## Project Structure
 ```bash
