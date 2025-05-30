@@ -12,20 +12,17 @@ This project provides a Dockerized Python application for optimising Battery Ene
 
 ## Project Structure
 ```bash
-$ ./tree-md .
-
-.
-* bess_optimizer_pipeline/
-    * app/
-        *  __init__.py         
-        *  config.py           # Configuration settings (paths, API details, dates)
-        *  smard_client.py     # Handles SMARD API data fetching and preprocessing
-        *  bess_optimizer.py   # Contains the OR-Tools optimization model
-        *  main.py             # Main entry point to run the pipeline
-    *  data/
-        *  BESS_Data.xlsx      # BESS and Grid parameters (REQUIRED)
-    *  requirements.txt        # Python dependencies
-    *  Dockerfile              # Instructions to build the Docker image
+bess_optimizer_pipeline/
+├── app/
+│   ├── __init__.py         
+│   ├── config.py           # Configuration settings (paths, API details, dates)
+│   ├── smard_client.py     # Handles SMARD API data fetching and preprocessing
+│   ├── bess_optimizer.py   # Contains the OR-Tools optimization model
+│   └── main.py             # Main entry point to run the pipeline
+├── data/
+│   └── BESS_Data.xlsx      # BESS and Grid parameters (REQUIRED)
+├── requirements.txt        # Python dependencies
+└── Dockerfile              # Instructions to build the Docker image
 ```
 ## Prerequisites
 
