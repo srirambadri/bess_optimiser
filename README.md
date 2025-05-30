@@ -11,8 +11,8 @@ This project provides a Dockerized Python application for optimising Battery Ene
 * **Dockerized:** Encapsulates the entire application in a Docker container for easy setup, consistent execution, and portability across different environments.
 
 ## Project Structure
+```bash
 $ ./tree-md .
-# Project tree
 
 .
 * bess_optimizer_pipeline/
@@ -26,7 +26,7 @@ $ ./tree-md .
         *  BESS_Data.xlsx      # BESS and Grid parameters (REQUIRED)
     *  requirements.txt        # Python dependencies
     *  Dockerfile              # Instructions to build the Docker image
-
+```
 ## Prerequisites
 
 ## Prerequisites
